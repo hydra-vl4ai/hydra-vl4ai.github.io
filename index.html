@@ -253,6 +253,24 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
+              Recent advances in visual reasoning (VR), particularly with the aid of Large Vision-Language Models (VLMs), show promise but require access to large-scale datasets and face challenges such as high computational costs and limited generalization capabilities. Compositional visual reasoning approaches have emerged as effective strategies; however, they heavily rely on the commonsense knowledge encoded in Large Language Models (LLMs) to perform planning, reasoning, or both, without considering the effect of their decisions on the visual reasoning process, which can lead to errors or failed procedures. To address these challenges, we introduce \ours{}, a multi-stage dynamic compositional visual reasoning framework designed for reliable and incrementally progressive general reasoning. \ours{} integrates three essential modules: a planner, a Reinforcement Learning (RL) agent serving as a cognitive controller, and a reasoner. The planner and reasoner modules utilize an LLM to generate instruction samples and executable code from the selected instruction, respectively, while the RL agent dynamically interacts with these modules, making high-level decisions on selection of the best instruction sample given information from the historical state stored through a feedback loop. This adaptable design enables \ours{} to adjust its actions based on previous feedback received during the reasoning process, leading to more reliable reasoning outputs and ultimately enhancing its overall effectiveness. Our framework demonstrates state-of-the-art performance in various VR tasks on four different widely-used datasets.
+           </p>
+  
+          </div>
+        </div>
+      </div>
+        
+    </div>
+  </section>
+
+  <section class="section"  style="background-color:#efeff081">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-six-fifths">
+          <h2 class="title is-3">Contribution</h2>
+          <div class="content has-text-justified">
+            <p>
               A multi-stage dynamic compositional visual reasoning framework designed for reliable and incrementally progressive general reasoning.
               <ol type="1">
                 <li><b>Cognitive Agent</b>. <span style="font-size: 95%;">Integrating a cognitive reinforcement learning-based agent as a controller into a framework to foster hyper decision-making and behavior across diverse environments, enhancing system cohesion, performance, and reasoning capabilities. </span></li>
@@ -268,7 +286,6 @@
         
     </div>
   </section>
-
   
   <!--Start from here  -->
 
